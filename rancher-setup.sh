@@ -38,7 +38,8 @@ docker run -d \
   -v /opt/rancher:/var/lib/rancher \
   --name rancher \
   --hostname rancher \
-  rancher/rancher:latest
+  rancher/rancher:v2.13.2
+
 
 EONG
 
